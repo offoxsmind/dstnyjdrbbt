@@ -1,0 +1,56 @@
+{
+    "author": "somberfox@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "destiny-jade-rabbit",
+    "pebble": {
+        "displayName": "Destiny Jade Rabbit",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/watchtemplate.png",
+                    "name": "hexa",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9, :]",
+                    "file": "fonts/AlphaMaleModern.ttf",
+                    "name": "font50",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9, :]",
+                    "file": "fonts/AlphaMaleModern.ttf",
+                    "name": "font62",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/AlphaMaleModern.ttf",
+                    "name": "font30",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "7a4d3595-23d9-4f49-a1a5-090c069ce511",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
